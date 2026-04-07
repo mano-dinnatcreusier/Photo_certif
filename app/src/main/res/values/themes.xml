@@ -1,0 +1,13 @@
+<resources>
+    <!--
+        Thème minimal requis par le manifest Android.
+        L'UI réelle est entièrement gérée par Jetpack Compose (PhotoCertifTheme).
+        On utilise Theme.AppCompat.NoActionBar — toujours disponible via appcompat,
+        compatible avec toutes les versions du SDK Android.
+    -->
+    <style name="Theme.PhotoCertif" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>

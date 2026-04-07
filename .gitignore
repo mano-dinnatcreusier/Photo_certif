@@ -1,0 +1,45 @@
+# Android build outputs & cache
+app/build/
+build/
+.gradle/
+local.properties
+
+# APK / AAB (sauf le dossier release/ publié volontairement)
+*.apk
+*.aab
+!release/*.apk
+
+# Android Studio & IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Keystore de signature (NE JAMAIS committer une clé privée de production !)
+*.jks
+*.keystore
+
+# Fichiers de sortie de test (photos + preuves locales)
+output/
+photocertif_output/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+*~
+
+# Logs
+*.log
+*.tar.gz
