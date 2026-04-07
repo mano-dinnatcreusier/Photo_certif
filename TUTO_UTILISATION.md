@@ -1,3 +1,6 @@
+Le tutoriel suivant a été généré par Gemini. A noter qu'il est aussi possible de simplement installer le .apk sur un téléphone pour tester, même si adb facilite le transfert (pour vérifier la certification également).
+
+
 # 📖 Tutoriel d'utilisation — PhotoCertif
 
 > Application Android de **certification photographique par signature cryptographique matérielle**.
